@@ -9,6 +9,7 @@ const glRender = () => {
     let rendererText = document.getElementById('rendererText');
     rendererText.innerHTML = `${renderer}`;
   };
+  
   const randCol = () => {
     gl.clearColor(Math.random(), Math.random(), Math.random(), 1.0);
     // Clear the color buffer with specified clear color
