@@ -1,0 +1,32 @@
+:root {
+  --medium-grey: #444;
+  --dark-grey: #222;
+}
+
+body {
+  background-color: var(--dark-grey);
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+#container {
+  background-color: yellow;
+}
+
+#canvas {
+  position: absolute;
+  background-color: black;
+}
+
+.panel {
+  position: absolute;
+  background-color: var(--dark-grey);
+  border-style: solid;
+  border-color: var(--medium-grey);
+  border-width: 1px;
+}

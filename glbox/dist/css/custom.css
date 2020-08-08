@@ -1,0 +1,62 @@
+:root {
+  --medium-grey: #444;
+  --dark-grey: #222;
+}
+
+body {
+  background-color: var(--dark-grey);
+  font-family: 'Ubuntu Mono', Courier, monospace;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+p {
+  color: #777;
+  font-size: 1em;
+}
+
+#container {
+  background-color: yellow;
+}
+
+#glcanvas {
+  position: absolute;
+  background-color: black;
+}
+
+#info {
+  height: 200px;
+  background-color: var(--dark-grey);
+  width: 100%;
+}
+
+.panel {
+  position: absolute;
+  background-color: var(--dark-grey);
+  /*border-style: solid;
+  border-color: var(--medium-grey);
+  border-width: 1px;*/
+}
+
+.btn {
+  background-color: #777; /* Green */
+  border: none;
+  color: var(--dark-grey);
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-color: #999;
+}
